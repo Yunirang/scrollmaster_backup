@@ -1,0 +1,123 @@
+/* Adjusted CSS */
+/* Reset some default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3e5bf; /* Set background color for the whole page */
+}
+
+/* Container style */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Set background color for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Header style */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    /* nunito */
+    font-family: 'Nunito', sans-serif;
+    /* italic and not bold */
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+/* Button and file input styles */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.file-upload {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* PDF info container style */
+.pdf-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Set background color for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* IFrame container style */
+.iframe-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Image elements */
+#importedImage {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+/* Add these styles to your existing CSS file */
+
+/* Update your existing CSS file */
+
+/* Container for sheet music splits */
+.sheet-music-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+
+    /* border for the container*/
+    border: 1px solid #ddd;
+}
+
+/* Adjust the size of each sheet music split */
+.strip {
+    width: 100%; /* Set width to 100% */
+    height: auto; /* Automatically adjust height */
+    max-width: 85%; /* Set a maximum width for the strips */
+    margin: 10px -0.1px; /* Add margin for spacing */
+
+
+    /* border make it invisible  */
+     border: 1px solid transparent;
+    /* border-radius: 8px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);  */
+
+}
+
+
+/* Add a red line */
+.red-line {
+    position: fixed; /* Fix the position */
+    top: 38.5%; /* Stick to the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal position */
+    width: 5px; /* Line width */
+    height: 13%; /* Stretch to the full height */
+    background-color: rgb(255, 0, 0); /* Red color */
+    opacity: 0;
+    
+    z-index: 999; /* Ensure it's above other content */
+}
+
+

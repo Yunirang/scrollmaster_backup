@@ -1,0 +1,36 @@
+5/3/2024: Start of Project
+
+    - basic electron.js app setup
+    - importing and displaying of pdf
+    - idealization of pdf parsing 
+    - 2.5 hours
+
+5/5/2024: PDF parsing implementation 
+    - successfuly parsed 
+    - jpeg was easier than pdf apparently
+    - Made it a scrolling score 
+    - 2.5 hours
+
+5/8/2024: Multiple picture functionality
+    - Can select multiple pictures 
+    - the pictures get rendered together right after one another 
+    - thinking about how to align the bars better
+    - reset button 
+    - 2 hours
+
+5/10/2024: Bug fixing for other files 
+    - Made the containers all aligned (WIP)
+    - Learned how to access styles and divs within forEach loops
+    - I will make the red line locked to the containers next
+    - 4 Hours
+
+5/11/2024: Playback feature + red line optimizing 
+    - optimized the red line placement to be within the container 
+    - Better UI for first deliverable 
+    - CSS progression 
+    - 3 Hours
+
+--------------------- MAY 13TH DUE DATE ---------------------
+
+
+
